@@ -1,5 +1,8 @@
 package com.liam.study;
 
+/**
+ * 리암이 개발했어요.
+ */
 public class MyFirst {
     public static void main(String[] args)
     {
