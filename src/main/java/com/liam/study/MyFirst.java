@@ -19,7 +19,7 @@ public class MyFirst {
                 System.out.println(i * n);
             }
         }*/
-        //Horizontal Version
+        /*Horizontal Version
         for (int i = 1;i<=9;i++) {
             System.out.print(i + "단   ");
         }
@@ -40,12 +40,32 @@ public class MyFirst {
                 }
             }
             System.out.println();
+        }*/
+        gugudan(10);
+    }
+    //For fun: function with number input for gugudan
+    static void gugudan(int mul) {
+        for (int i = 1; i <= mul; i++) {
+            System.out.print(i + "단   ");
+        }
+        System.out.println();
+        for (int u = 1; u <= mul; u++) {
+            for (int p = 1; p <= mul; p++) {
+                //testing for number of digits in each number so that it looks nice
+                int count = 0, num = u * p;
+                while (num != 0) {
+                    num /= 10;
+                    ++count;
+                }
+                if (count == 1) {
+                    System.out.print(u * p + "     ");
+                } else {
+                    System.out.print(u * p + "    ");
+                }
+            }
+            System.out.println();
         }
     }
-    public int Multiplier(){
-        return 1;
-    }
-
     public String getName()
     {
         return "Liam";
