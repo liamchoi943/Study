@@ -1,7 +1,7 @@
 package com.liam.study;
 
 /**
- * 리암이 개발했어요.
+ * 리암이 개발했어요. 3333333
  */
 public class MyFirst {
     public static void main(String[] args)
